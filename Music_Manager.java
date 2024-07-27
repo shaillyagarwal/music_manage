@@ -1,9 +1,11 @@
 import java.io.File; 
+import java.util.Scanner;
 public class Music_Manager  
 { 
     public static void main(String[] args) 
-    {  
-      String directoryPath = "C:/Users/HP/Desktop/surya/acharya-2024-shaillyagarwal-main/music/Music"; 
+    {
+      Scanner sc=new Scanner(System.in);
+      String directoryPath =sc.nextLine(); 
         
       File directory = new File(directoryPath); 
 
